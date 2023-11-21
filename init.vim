@@ -14,6 +14,8 @@ Plug 'hrsh7th/vim-vsnip'
 Plug 'puremourning/vimspector'
 call plug#end()
 
+set clipboard+=unnamedplus
+
 " Initialize Lua block
 lua << EOF
 require("opts")
