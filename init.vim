@@ -12,6 +12,7 @@ Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'puremourning/vimspector'
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 call plug#end()
 
 set clipboard+=unnamedplus
@@ -20,6 +21,7 @@ set clipboard+=unnamedplus
 lua << EOF
 require("opts")
 require("keys")
+require("tokyonight")
 
 -- Mason Setup
 require("mason").setup({
