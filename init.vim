@@ -16,6 +16,8 @@ Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 call plug#end()
 
 set clipboard+=unnamedplus
+set relativenumber
+colorscheme tokyonight-night
 
 " Initialize Lua block
 lua << EOF
